@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+questions_generated.js
+generate_answers.js
+package-lock.json
+package.json
+admin.html
+
+
+
