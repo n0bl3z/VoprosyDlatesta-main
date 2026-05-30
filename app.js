@@ -34,6 +34,10 @@ const subjects = {
   cpp: {
     name: 'Основы C++',
     questions: typeof cppQuestions !== 'undefined' ? cppQuestions : []
+  },
+  winapi: {
+    name: 'WinAPI',
+    questions: typeof winapiQuestions !== 'undefined' ? winapiQuestions : []
   }
 };
 

@@ -1,0 +1,2161 @@
+1. Какая функция используется для создания окна в Windows API?
+a) OpenWindow
+b) MakeWindow
+# c) CreateWindow
+d) BuildWindow
+e) NewWindow
+2. Какой заголовочный файл необходимо подключить для работы с Windows API?
+a) win32.h
+b) system.h
+c) winbase.h
+# d) windows.h
+e) winapi.h
+3. Какая функция является точкой входа в Windows-приложение?
+a) Start
+b) AppMain
+c) WinStart
+# d) WinMain
+e) main
+4. Что такое HWND в Windows API?
+a) Идентификатор процесса
+b) Тип данных для строк
+c) Дескриптор файла
+d) Указатель на функцию
+# e) Дескриптор окна
+5. Какая функция отображает окно на экране?
+a) DisplayWindow
+b) RenderWindow
+c) PresentWindow
+d) OpenWindow
+# e) ShowWindow
+6. Какая структура используется для регистрации класса окна?
+a) WINCLASS
+b) WINDOWCLASS
+c) WNDTYPE
+d) CLASSWIN
+# e) WNDCLASS
+7. Какая функция регистрирует класс окна?
+a) CreateClass
+b) AddClass
+c) SetClass
+d) InitClass
+# e) RegisterClass
+8. Как называется функция обратного вызова для обработки сообщений окна?
+a) WinCallback
+b) MsgHandler
+c) EventProc
+d) WindowFunc
+# e) WndProc
+9. Какое сообщение посылается при закрытии окна?
+a) WM_QUIT
+b) WM_CLOSE_WINDOW
+c) WM_EXIT
+# d) WM_DESTROY
+e) WM_END
+10. Какая функция завершает цикл обработки сообщений?
+a) StopMessages
+b) ExitLoop
+c) QuitApp
+d) EndMessageLoop
+# e) PostQuitMessage
+11. Какая функция извлекает сообщение из очереди сообщений?
+a) ReadMessage
+b) PeekMessage
+c) FetchMessage
+d) PopMessage
+# e) GetMessage
+12. Какая функция передаёт сообщение оконной процедуре?
+a) ForwardMessage
+b) DeliverMessage
+c) RouteMessage
+d) SendToWindow
+# e) DispatchMessage
+13. Какая функция транслирует виртуальные клавиши в символы?
+a) ConvertMessage
+b) KeyToChar
+c) ParseMessage
+d) MapMessage
+# e) TranslateMessage
+14. Какое сообщение генерируется при нажатии клавиши?
+a) WM_PRESS
+b) WM_KEYBOARD
+c) WM_KEY
+d) WM_KEYPRESS
+# e) WM_KEYDOWN
+15. Какое сообщение генерируется при нажатии левой кнопки мыши?
+a) WM_CLICK
+b) WM_LEFTCLICK
+c) WM_MOUSEPRESSED
+d) WM_MOUSECLICK
+# e) WM_LBUTTONDOWN
+16. Что такое HDC в Windows API?
+a) Тип данных для цвета
+b) Идентификатор дисплея
+c) Указатель на графику
+d) Дескриптор окна
+# e) Дескриптор контекста устройства
+17. Какая функция получает контекст устройства для рисования?
+a) AcquireDC
+b) CreateDC
+c) OpenDC
+d) FetchDC
+# e) GetDC
+18. Какая функция освобождает контекст устройства?
+a) DeleteDC
+b) CloseDC
+c) FreeDC
+d) RemoveDC
+# e) ReleaseDC
+19. Какое сообщение посылается при необходимости перерисовки окна?
+a) WM_REDRAW
+b) WM_REFRESH
+c) WM_DRAW
+d) WM_RENDER
+# e) WM_PAINT
+20. Какая функция начинает операцию рисования при обработке WM_PAINT?
+a) OpenPaint
+b) CreatePaint
+c) StartPaint
+d) InitPaint
+# e) BeginPaint
+21. Какая функция завершает операцию рисования?
+a) FinishPaint
+b) StopPaint
+c) ClosePaint
+d) DonePaint
+# e) EndPaint
+22. Какая функция выводит текст в контексте устройства?
+a) PrintText
+b) DrawText
+c) WriteText
+d) ShowText
+# e) TextOut
+23. Какая функция рисует линию в контексте устройства?
+a) MakeLine
+b) DrawLine
+c) CreateLine
+d) PaintLine
+# e) LineTo
+24. Какая функция рисует прямоугольник?
+a) DrawRect
+b) MakeRect
+c) FillRect
+d) PaintRect
+# e) Rectangle
+25. Что такое HINSTANCE в Windows API?
+a) Указатель на главное окно
+b) Идентификатор потока
+# c) Дескриптор экземпляра приложения
+d) Дескриптор модуля DLL
+e) Тип для хранения адреса
+26. Какая функция создаёт дочернее окно?
+a) AddChildWindow
+b) MakeChild
+c) CreateChild
+d) NewWindow
+# e) CreateWindowEx
+27. Какое сообщение посылается при изменении размера окна?
+# a) WM_SIZE
+b) WM_RESIZE
+c) WM_CHANGE
+d) WM_SCALE
+e) WM_DIMENSION
+28. Какая функция перемещает и изменяет размер окна?
+a) ResizeWindow
+b) SetWindowPos
+c) ChangeWindow
+# d) MoveWindow
+e) PlaceWindow
+29. Какая функция устанавливает заголовок окна?
+a) SetTitle
+# b) SetWindowText
+c) ChangeCaption
+d) SetCaption
+e) UpdateTitle
+30. Какая функция получает заголовок окна?
+a) ReadTitle
+b) FetchCaption
+# c) GetWindowText
+d) GetCaption
+e) ReadWindowText
+31. Что означает стиль окна WS_OVERLAPPEDWINDOW?
+a) Окно без рамки
+b) Дочернее окно
+c) Всплывающее окно
+d) Окно инструментов
+# e) Стандартное перекрывающееся окно с заголовком и рамкой
+32. Какая функция посылает сообщение окну?
+a) PostMessage
+# b) SendMessage
+c) TransmitMessage
+d) DeliverMessage
+e) PushMessage
+33. В чём разница между SendMessage и PostMessage?
+a) SendMessage быстрее
+b) PostMessage синхронный
+c) Нет разницы
+# d) SendMessage ждёт обработки, PostMessage помещает в очередь
+e) SendMessage только для дочерних окон
+34. Какая функция создаёт таймер?
+# a) SetTimer
+b) CreateTimer
+c) StartTimer
+d) AddTimer
+e) InitTimer
+35. Какое сообщение посылается при срабатывании таймера?
+a) WM_TICK
+b) WM_ALARM
+# c) WM_TIMER
+d) WM_CLOCK
+e) WM_TIMEOUT
+36. Какая функция уничтожает таймер?
+a) DeleteTimer
+b) RemoveTimer
+c) StopTimer
+d) DestroyTimer
+# e) KillTimer
+37. Какая функция уничтожает окно?
+a) DeleteWindow
+# b) DestroyWindow
+c) CloseWindow
+d) RemoveWindow
+e) KillWindow
+38. Что такое WM_CREATE?
+a) Функция создания окна
+b) Флаг стиля окна
+c) Тип дескриптора
+# d) Сообщение, посылаемое при создании окна
+e) Структура данных
+39. Какая функция обрабатывает необработанные сообщения по умолчанию?
+# a) DefWindowProc
+b) DefaultProc
+c) BaseWindowProc
+d) StandardProc
+e) HandleDefault
+40. Какая функция отображает стандартное диалоговое окно с сообщением?
+a) ShowDialog
+b) AlertBox
+# c) MessageBox
+d) InfoBox
+e) MsgDialog
+41. Какой параметр MessageBox используется для отображения кнопок Yes/No?
+a) MB_CONFIRM
+# b) MB_YESNO
+c) MB_QUESTION
+d) MB_CHOICE
+e) MB_YESCANCEL
+42. Какая функция загружает иконку из ресурсов?
+a) GetIcon
+b) FetchIcon
+c) ReadIcon
+d) ImportIcon
+# e) LoadIcon
+43. Какая функция загружает курсор из ресурсов?
+a) GetCursor
+b) FetchCursor
+c) ReadCursor
+# d) LoadCursor
+e) ImportCursor
+44. Что такое LPARAM в Windows API?
+# a) 32/64-битный параметр сообщения (длинный)
+b) Указатель на строку
+c) Тип для дескрипторов
+d) Флаг сообщения
+e) Идентификатор окна
+45. Что такое WPARAM в Windows API?
+a) Широкий символ
+# b) Параметр сообщения (слово)
+c) Указатель на параметр
+d) Флаг стиля
+e) Дескриптор процесса
+46. Как называется цикл обработки сообщений в Windows API?
+a) Event Loop
+b) Main Loop
+c) Window Loop
+d) Process Loop
+# e) Message Loop (цикл сообщений)
+47. Какая функция принудительно перерисовывает окно?
+a) RedrawWindow
+b) RefreshWindow
+# c) InvalidateRect
+d) UpdateWindow
+e) RepaintWindow
+48. Какая функция немедленно обновляет окно?
+# a) UpdateWindow
+b) RefreshWindow
+c) RepaintNow
+d) ForceRepaint
+e) FlushWindow
+49. Что такое COLORREF в Windows API?
+a) Ссылка на цветовую схему
+b) Дескриптор цвета
+c) Индекс цвета в палитре
+# d) Тип данных для хранения цвета RGB
+e) Название цвета
+50. Какой макрос создаёт значение COLORREF из компонентов RGB?
+a) MAKECOLOR(r,g,b)
+# b) RGB(r, g, b)
+c) COLOR(r,g,b)
+d) SETRGB(r,g,b)
+e) NEWCOLOR(r,g,b)
+51. Какая функция создаёт кисть заданного цвета?
+a) MakeBrush
+b) NewBrush
+# c) CreateSolidBrush
+d) SetBrush
+e) InitBrush
+52. Какая функция создаёт перо для рисования?
+a) MakePen
+b) NewPen
+c) SetPen
+d) InitPen
+# e) CreatePen
+53. Какая функция выбирает объект GDI в контекст устройства?
+# a) SelectObject
+b) UseObject
+c) SetObject
+d) InsertObject
+e) ApplyObject
+54. Какая функция удаляет объект GDI из памяти?
+a) RemoveObject
+b) FreeObject
+c) DestroyObject
+# d) DeleteObject
+e) ReleaseObject
+55. Что такое GDI в Windows?
+a) Global Device Index
+b) Graphics Data Input
+# c) Graphics Device Interface — интерфейс графических устройств
+d) General Display Interface
+e) Graphical Driver Interface
+56. Какая функция рисует эллипс?
+# a) Ellipse
+b) DrawEllipse
+c) Circle
+d) DrawCircle
+e) Oval
+57. Какая функция рисует многоугольник?
+a) DrawPolygon
+b) PolyLine
+c) Shape
+d) DrawShape
+# e) Polygon
+58. Какая функция заливает область цветом?
+a) ColorRect
+# b) FillRect
+c) PaintArea
+d) FloodFill
+e) FillArea
+59. Какая функция перемещает точку рисования?
+a) MoveTo
+b) SetPosition
+c) GotoPoint
+# d) MoveToEx
+e) MovePoint
+60. Какой стиль окна делает его дочерним?
+# a) WS_CHILD
+b) WS_POPUP
+c) WS_OWNED
+d) WS_CHILDWINDOW
+e) WS_SUBWINDOW
+61. Какой стиль окна добавляет полосу прокрутки?
+a) WS_SCROLL
+b) WS_SCROLLBAR
+# c) WS_VSCROLL
+d) WS_VERTICAL
+e) WS_VBAR
+62. Какая функция создаёт кнопку?
+a) CreateButton
+b) AddButton
+c) MakeButton
+d) NewButton
+# e) CreateWindow с классом BUTTON
+63. Какое сообщение посылается при нажатии кнопки?
+a) WM_BUTTON
+# b) BN_CLICKED через WM_COMMAND
+c) BM_CLICK
+d) WM_PRESS
+e) BTN_CLICK
+64. Какая функция создаёт поле ввода текста?
+a) CreateEdit
+b) AddTextBox
+c) MakeInput
+# d) CreateWindow с классом EDIT
+e) NewEditBox
+65. Какая функция создаёт список (listbox)?
+# a) CreateWindow с классом LISTBOX
+b) CreateList
+c) AddListBox
+d) MakeList
+e) NewListBox
+66. Какая функция добавляет элемент в список?
+a) AddItem
+b) LB_INSERT
+# c) SendMessage с LB_ADDSTRING
+d) ListAdd
+e) AppendItem
+67. Какая функция создаёт меню?
+a) MakeMenu
+b) AddMenu
+c) NewMenu
+d) InitMenu
+# e) CreateMenu
+68. Какая функция добавляет пункт в меню?
+a) AddMenuItem
+# b) AppendMenu
+c) InsertMenu
+d) PushMenuItem
+e) CreateMenuItem
+69. Какая функция устанавливает меню для окна?
+a) AttachMenu
+b) AssignMenu
+c) LinkMenu
+# d) SetMenu
+e) AddMenuToWindow
+70. Какое сообщение посылается при выборе пункта меню?
+# a) WM_COMMAND
+b) WM_MENU
+c) WM_MENUSELECT
+d) WM_MENUCLICK
+e) WM_ITEM
+71. Что такое акселератор в Windows API?
+a) Аппаратное ускорение графики
+b) Быстрый таймер
+# c) Сочетание клавиш для быстрого вызова команд
+d) Оптимизатор кода
+e) Кэш сообщений
+72. Какая функция загружает таблицу акселераторов?
+a) GetAccelerators
+b) ReadKeys
+c) FetchHotkeys
+d) LoadHotkeys
+# e) LoadAccelerators
+73. Какая функция обрабатывает акселераторы в цикле сообщений?
+a) HandleAccelerator
+# b) TranslateAccelerator
+c) ProcessHotkey
+d) ApplyAccel
+e) ConvertAccel
+74. Что такое диалоговое окно в Windows API?
+a) Тип главного окна
+b) Окно без заголовка
+c) Дочернее окно кнопки
+# d) Вспомогательное окно для взаимодействия с пользователем
+e) Всплывающая подсказка
+
+75. Какая функция создаёт модальный диалог?
+# a) DialogBox
+b) CreateDialog
+c) ModalDialog
+d) ShowDialog
+e) OpenDialog
+76. Какая функция создаёт немодальный диалог?
+a) DialogBox
+b) ModelessDialog
+c) OpenDialog
+d) MakeDialog
+# e) CreateDialog
+77. Какая функция завершает модальный диалог?
+a) CloseDialog
+b) DestroyDialog
+c) QuitDialog
+d) FinishDialog
+# e) EndDialog
+78. Что такое ресурс в Windows API?
+a) Системная память
+# b) Данные (иконки, меню, строки), встроенные в исполняемый файл
+c) Дескриптор файла
+d) Поток данных
+e) Сетевой ресурс
+79. Какой файл содержит описание ресурсов Windows-приложения?
+a) .res файл
+b) .rsx файл
+c) .resource файл
+# d) .rc файл (файл ресурсов)
+e) .win файл
+80. Какая функция загружает строку из таблицы строк ресурсов?
+# a) LoadString
+b) GetString
+c) FetchString
+d) ReadString
+e) ImportString
+81. Какая функция загружает растровое изображение из ресурсов?
+a) GetBitmap
+b) FetchBitmap
+c) ReadBitmap
+d) OpenBitmap
+# e) LoadBitmap
+82. Что такое HBITMAP?
+a) Тип для пикселей
+b) Указатель на изображение
+c) Размер картинки
+d) Формат файла
+# e) Дескриптор растрового изображения
+83. Какая функция копирует пиксели между контекстами устройств?
+a) CopyPixels
+# b) BitBlt
+c) TransferBitmap
+d) BlitImage
+e) CopyDC
+84. Какая функция загружает меню из ресурсов?
+a) GetMenu
+# b) LoadMenu
+c) FetchMenu
+d) ReadMenu
+e) ImportMenu
+85. Что такое совместимый контекст устройства (compatible DC)?
+a) DC для видеокарты
+b) DC для принтера
+c) DC другого монитора
+# d) DC в памяти, совместимый с экранным DC для двойной буферизации
+e) Копия DC окна
+86. Какая функция создаёт совместимый DC?
+a) MakeMemDC
+b) NewDC
+c) CloneDC
+# d) CreateCompatibleDC
+e) CreateMemoryDC
+87. Какая функция создаёт совместимое растровое изображение?
+a) MakeBitmap
+b) NewBitmap
+c) CloneBitmap
+d) CreateMemBitmap
+# e) CreateCompatibleBitmap
+88. Что такое PAINTSTRUCT?
+a) Структура цвета пера
+# b) Структура с информацией о перерисовке при обработке WM_PAINT
+c) Структура для создания кисти
+d) Параметры контекста устройства
+e) Формат шрифта
+89. Какое поле PAINTSTRUCT содержит дескриптор контекста устройства?
+a) dc
+b) context
+c) device
+# d) hdc
+e) hDC
+90. Что такое WM_MOUSEMOVE?
+# a) Сообщение о перемещении курсора мыши
+b) Сообщение о прокрутке
+c) Событие перетаскивания
+d) Клик мышью
+e) Сообщение о движении колеса
+91. Как получить координаты мыши из параметра lParam сообщения WM_MOUSEMOVE?
+a) Прямым приведением к int
+b) Функцией GetMousePos
+# c) Макросами GET_X_LPARAM и GET_Y_LPARAM
+d) Структурой MOUSEPOS
+e) Функцией GetCursorPos
+92. Какая функция получает текущую позицию курсора?
+a) GetMousePos
+# b) GetCursorPos
+c) CursorPosition
+d) FetchCursor
+e) ReadCursorPos
+93. Что такое WM_RBUTTONDOWN?
+a) Сообщение о контекстном меню
+b) Нажатие средней кнопки
+c) Отпускание правой кнопки
+d) Двойной клик правой кнопкой
+# e) Сообщение о нажатии правой кнопки мыши
+94. Что такое WM_MOUSEWHEEL?
+a) Сообщение о скролле окна
+b) Движение мыши
+c) Нажатие колеса
+d) Горизонтальная прокрутка
+# e) Сообщение о прокрутке колеса мыши
+95. Что такое хук (hook) в Windows API?
+a) Указатель на функцию
+b) Системный вызов
+c) Обработчик исключений
+d) Тип сообщения
+# e) Механизм перехвата системных событий
+96. Какая функция устанавливает хук?
+a) InstallHook
+b) CreateHook
+c) AddHook
+# d) SetWindowsHookEx
+e) RegisterHook
+97. Какая функция удаляет хук?
+a) RemoveHook
+# b) UnhookWindowsHookEx
+c) DeleteHook
+d) KillHook
+e) DestroyHook
+98. Что такое WH_KEYBOARD в Windows API?
+a) Виртуальный код клавиши
+b) Состояние клавиатуры
+c) Тип устройства
+d) Флаг нажатой клавиши
+# e) Тип хука для перехвата клавиатурных сообщений
+99. Что такое поток (thread) в Windows?
+a) Очередь сообщений
+b) Тип данных для массивов
+c) Канал между процессами
+d) Поток ввода-вывода
+# e) Единица исполнения внутри процесса
+100. Какая функция создаёт новый поток?
+a) StartThread
+b) MakeThread
+c) NewThread
+d) AddThread
+# e) CreateThread
+101. Какая функция ожидает завершения потока?
+a) JoinThread
+b) WaitThread
+c) SyncThread
+# d) WaitForSingleObject
+e) AwaitThread
+102. Что такое мьютекс в Windows?
+a) Тип сообщения
+b) Специальный поток
+c) Быстрый таймер
+d) Очередь событий
+# e) Объект синхронизации для взаимного исключения
+103. Какая функция создаёт мьютекс?
+a) MakeMutex
+b) NewMutex
+c) InitMutex
+# d) CreateMutex
+e) AddMutex
+104. Какая функция захватывает мьютекс?
+# a) WaitForSingleObject
+b) LockMutex
+c) AcquireMutex
+d) GetMutex
+e) ClaimMutex
+105. Какая функция освобождает мьютекс?
+a) FreeMutex
+b) UnlockMutex
+c) DropMutex
+d) DeleteMutex
+# e) ReleaseMutex
+106. Что такое семафор в Windows?
+# a) Объект синхронизации со счётчиком
+b) Тип сигнала
+c) Флаг состояния потока
+d) Вид таймера
+e) Объект для блокировки файла
+107. Какая функция создаёт семафор?
+a) MakeSemaphore
+b) NewSemaphore
+# c) CreateSemaphore
+d) InitSemaphore
+e) AddSemaphore
+108. Какая функция открывает файл в Windows API?
+a) OpenFile
+# b) CreateFile
+c) FetchFile
+d) ReadFile
+e) AccessFile
+109. Какая функция читает данные из файла?
+a) GetFileData
+b) FetchData
+c) InputFile
+# d) ReadFile
+e) LoadFile
+110. Какая функция записывает данные в файл?
+# a) WriteFile
+b) PutData
+c) SaveFile
+d) OutputFile
+e) StoreFile
+111. Какая функция закрывает дескриптор объекта?
+a) DeleteHandle
+b) FreeHandle
+# c) CloseHandle
+d) ReleaseHandle
+e) RemoveHandle
+112. Какая функция выделяет память из кучи процесса?
+a) MallocWin
+b) AllocMem
+c) WinMalloc
+d) GetMemory
+# e) HeapAlloc
+113. Какая функция освобождает память, выделенную HeapAlloc?
+a) FreeHeap
+# b) HeapFree
+c) DeleteMem
+d) ReleaseMem
+e) WinFree
+114. Что такое виртуальная память в Windows?
+# a) Адресное пространство процесса, управляемое ОС
+b) Оперативная память
+c) Физическая память
+d) Кэш процессора
+e) Файл подкачки
+115. Какая функция выделяет виртуальную память?
+a) AllocVirtual
+b) GetVirtualMem
+c) ReserveMemory
+# d) VirtualAlloc
+e) MapMemory
+116. Что такое DLL (Dynamic Link Library)?
+a) Статическая библиотека
+b) Файл ресурсов
+# c) Динамически подключаемая библиотека с общим кодом
+d) Конфигурационный файл
+e) Исполняемый модуль
+117. Какая функция загружает DLL во время выполнения?
+a) ImportDLL
+b) OpenDLL
+c) FetchLibrary
+d) AttachDLL
+# e) LoadLibrary
+118. Какая функция получает адрес функции из DLL?
+# a) GetProcAddress
+b) FindFunction
+c) GetFunction
+d) LocateProc
+e) FetchAddress
+119. Какая функция выгружает DLL?
+a) UnloadDLL
+# b) FreeLibrary
+c) ReleaseDLL
+d) RemoveLibrary
+e) DeleteDLL
+120. Что такое реестр Windows?
+a) Список запущенных процессов
+b) Журнал событий
+c) Системный файл настроек
+# d) Иерархическая база данных конфигурации системы
+e) База данных файлов
+121. Какая функция открывает ключ реестра?
+a) OpenRegistry
+b) FetchRegKey
+# c) RegOpenKeyEx
+d) GetRegKey
+e) ReadRegistry
+122. Какая функция создаёт ключ реестра?
+# a) RegCreateKeyEx
+b) AddRegKey
+c) MakeRegKey
+d) NewRegKey
+e) SetRegKey
+123. Какая функция читает значение из реестра?
+a) ReadRegValue
+b) GetRegValue
+c) FetchRegValue
+d) RegRead
+# e) RegQueryValueEx
+124. Какая функция записывает значение в реестр?
+a) WriteRegValue
+# b) RegSetValueEx
+c) PutRegValue
+d) StoreRegValue
+e) RegWrite
+125. Какая функция закрывает ключ реестра?
+a) CloseRegistry
+b) FreeRegKey
+c) ReleaseRegKey
+# d) RegCloseKey
+e) DeleteRegKey
+126. Что такое событие (event) в Windows API?
+# a) Объект синхронизации с сигнальным состоянием
+b) Сообщение окну
+c) Прерывание процессора
+d) Тип исключения
+e) Системный вызов
+127. Какая функция создаёт событие (event)?
+a) MakeEvent
+b) NewEvent
+# c) CreateEvent
+d) AddEvent
+e) InitEvent
+128. Какая функция переводит событие в сигнальное состояние?
+a) SignalEvent
+# b) SetEvent
+c) FireEvent
+d) TriggerEvent
+e) ActivateEvent
+129. Какая функция сбрасывает событие в несигнальное состояние?
+a) ClearEvent
+b) UnsetEvent
+c) CancelEvent
+d) DeactivateEvent
+# e) ResetEvent
+130. Что такое pipe (канал) в Windows API?
+a) Тип потока ввода
+b) Сетевое соединение
+c) Буфер сообщений
+# d) Механизм межпроцессного взаимодействия через поток данных
+e) Тип файла
+131. Какая функция создаёт анонимный канал?
+# a) CreatePipe
+b) MakePipe
+c) NewPipe
+d) OpenPipe
+e) InitPipe
+132. Что такое именованный канал (named pipe)?
+a) Канал с паролем
+# b) Канал с именем, доступный между разными процессами
+c) Защищённый канал
+d) Сетевой сокет
+e) Зашифрованный буфер
+133. Какая функция создаёт именованный канал?
+a) MakeNamedPipe
+b) NewNamedPipe
+# c) CreateNamedPipe
+d) OpenNamedPipe
+e) AddNamedPipe
+134. Что такое WM_CLOSE?
+a) Сообщение об уничтожении окна
+b) Завершение приложения
+c) Скрытие окна
+# d) Сообщение о запросе закрытия окна
+e) Минимизация окна
+135. Что произойдёт, если не вызвать DefWindowProc для WM_CLOSE?
+a) Окно закроется автоматически
+b) Приложение завершится
+c) Система выдаст ошибку
+d) Окно скроется
+# e) Окно не закроется — нужно вызвать DestroyWindow вручную
+136. Что такое WM_ACTIVATE?
+# a) Сообщение об активации или деактивации окна
+b) Запуск приложения
+c) Нажатие на заголовок
+d) Получение фокуса ввода
+e) Переключение между окнами
+137. Что такое WM_SETFOCUS?
+a) Установка курсора
+b) Активация окна
+# c) Сообщение о получении окном фокуса клавиатуры
+d) Выбор элемента управления
+e) Первый клик мышью
+138. Что такое WM_KILLFOCUS?
+a) Закрытие окна
+b) Деактивация приложения
+# c) Сообщение об утрате окном фокуса клавиатуры
+d) Минимизация
+e) Потеря захвата мыши
+139. Что такое RECT в Windows API?
+a) Стиль рамки окна
+b) Функция рисования прямоугольника
+c) Размер окна
+d) Тип для хранения цвета
+# e) Структура, описывающая прямоугольную область координатами
+140. Что такое POINT в Windows API?
+# a) Структура с координатами точки (x, y)
+b) Размер шрифта
+c) Тип данных для пикселя
+d) Указатель в памяти
+e) Параметр сообщения
+141. Что такое SIZE в Windows API?
+a) Тип для размера памяти
+b) Размер файла
+c) Длина строки
+d) Количество пикселей
+# e) Структура с шириной и высотой (cx, cy)
+142. Какая функция получает размеры клиентской области окна?
+a) WindowDimensions
+b) ClientArea
+c) GetClientSize
+# d) GetClientRect
+e) GetWindowSize
+143. Что такое клиентская область окна?
+a) Вся площадь окна
+b) Область заголовка
+# c) Область окна без заголовка и рамок, доступная для рисования
+d) Рабочий стол
+e) Область системного меню
+144. Какая функция получает прямоугольник всего окна включая рамку?
+a) WindowBounds
+b) GetFrameRect
+c) GetOuterRect
+d) GetFullRect
+# e) GetWindowRect
+145. Какой тип данных TCHAR используется для?
+a) Только Unicode символа
+b) Типа для дескриптора
+c) Только ANSI символа
+d) Числового типа
+# e) Символа, совместимого с Unicode и ANSI в зависимости от сборки
+146. Что такое LPCSTR в Windows API?
+a) Тип для пути к файлу
+b) Длинная строка
+c) Указатель на структуру
+d) Unicode строка
+# e) Константный указатель на строку ANSI (char*)
+147. Что такое LPWSTR в Windows API?
+a) Указатель на ресурс
+b) Широкий символ
+c) Тип для длинных чисел
+d) Ссылка на окно
+# e) Указатель на строку Unicode (wchar_t*)
+148. Что такое BOOL в Windows API?
+a) Тип C++ bool
+b) Флаг битовой маски
+c) Тип для статуса ошибки
+d) Логический регистр
+# e) Целочисленный тип для логических значений (TRUE/FALSE)
+149. Какая функция получает последнюю ошибку Windows API?
+a) FetchError
+b) ReadError
+c) LastError
+d) GetError
+# e) GetLastError
+150. Что такое контекстное меню и как его вызвать?
+a) Меню в строке меню окна
+b) Выпадающий список
+c) Системное меню окна
+d) Меню пуск
+# e) Меню по правой кнопке мыши, вызывается через TrackPopupMenu
+151. Какая функция отображает всплывающее меню?
+a) DisplayMenu
+b) OpenContextMenu
+c) PopMenu
+d) ShowPopupMenu
+# e) TrackPopupMenu
+152. Что такое статус-бар (status bar) в Windows?
+a) Полоса прокрутки
+b) Строка заголовка
+c) Панель инструментов
+d) Системный трей
+# e) Панель в нижней части окна для отображения информации
+153. Что такое тулбар (toolbar) в Windows API?
+a) Строка меню
+b) Статус-бар
+c) Панель задач
+d) Контекстное меню
+# e) Панель инструментов с кнопками быстрого доступа
+154. Что такое комбо-бокс (ComboBox)?
+a) Кнопка с меню
+b) Список с множественным выбором
+c) Поле ввода числа
+d) Флажок с несколькими вариантами
+# e) Элемент управления — сочетание поля ввода и выпадающего списка
+155. Что такое чекбокс (CheckBox) в Windows API?
+a) Переключатель из группы
+b) Кнопка подтверждения
+c) Флаг в реестре
+d) Двоичный параметр меню
+# e) Элемент управления для включения/выключения параметра
+156. Что такое RadioButton в Windows API?
+a) Кнопка с меню
+b) Флажок включения
+c) Кнопка подтверждения
+d) Переключатель режима
+# e) Элемент выбора одного варианта из группы взаимоисключающих
+157. Что такое ScrollBar в Windows API?
+a) Индикатор прогресса
+b) Ползунок уровня громкости
+# c) Элемент управления для прокрутки содержимого
+d) Шкала времени
+e) Горизонтальный разделитель
+158. Что такое ProgressBar в Windows API?
+# a) Элемент управления для отображения прогресса операции
+b) Полоса прокрутки
+c) Шкала уровня сигнала
+d) Ползунок значения
+e) Индикатор загрузки CPU
+159. Что такое TreeView в Windows API?
+a) Список файлов
+b) Таблица с данными
+c) Группа элементов
+d) Структура папок только
+# e) Элемент управления для отображения иерархических данных
+160. Что такое ListView в Windows API?
+a) Простой список строк
+# b) Элемент управления для отображения списка элементов с иконками
+c) Таблица данных
+d) Дерево файлов
+e) Список выбора
+161. Какая функция инициализирует общие элементы управления (Common Controls)?
+a) LoadCommonControls
+b) StartControls
+c) RegisterControls
+# d) InitCommonControls или InitCommonControlsEx
+e) InitControls
+162. Какой заголовочный файл нужен для работы с Common Controls?
+# a) commctrl.h
+b) controls.h
+c) winctrl.h
+d) comctl.h
+e) commonctrl.h
+163. Какая функция получает дескриптор рабочего стола?
+a) DesktopHandle
+b) GetDesktop
+# c) GetDesktopWindow
+d) FetchDesktop
+e) OpenDesktop
+164. Что такое WM_CHAR?
+a) Код нажатой клавиши
+# b) Сообщение с символом, введённым с клавиатуры
+c) Unicode символ
+d) Специальный символ
+e) Управляющий код клавиши
+165. Какая функция получает состояние виртуальной клавиши?
+a) CheckKey
+b) KeyStatus
+c) GetVirtualKey
+d) ReadKey
+# e) GetKeyState
+166. Что такое DWORD в Windows API?
+a) Двойное слово со знаком
+b) 64-битное число
+# c) Беззнаковое 32-битное целое число
+d) Тип для дескрипторов
+e) Тип строки
+167. Что такое WORD в Windows API?
+# a) Беззнаковое 16-битное целое число
+b) Строка символов
+c) 32-битное число
+d) Тип для сообщений
+e) Зарезервированное слово
+168. Что такое BYTE в Windows API?
+a) Знаковый символ
+b) Минимальная единица хранения с знаком
+# c) Беззнаковое 8-битное целое число
+d) Тип для флагов
+e) Половина слова
+169. Что такое HANDLE в Windows API?
+a) Указатель на функцию
+# b) Обобщённый тип дескриптора для системных объектов
+c) Адрес в памяти
+d) Идентификатор сообщения
+e) Тип для ресурсов
+170. Что такое CALLBACK в объявлении функции Windows API?
+a) Тип возвращаемого значения
+b) Признак виртуальной функции
+c) Модификатор экспорта
+d) Синоним extern
+# e) Соглашение о вызове __stdcall для функций обратного вызова
+171. Что такое WINAPI в объявлении функций?
+a) Пространство имён Windows
+b) Тип импорта функции
+# c) Соглашение о вызове __stdcall для функций Windows API
+d) Модификатор inline
+e) Признак системного вызова
+172. Что такое LRESULT — тип возвращаемого значения оконной процедуры?
+# a) Знаковое целое 32/64-битное — результат обработки сообщения
+b) Тип для результата логической операции
+c) Код ошибки
+d) Дескриптор объекта
+e) Статус завершения потока
+173. Что такое WM_GETMINMAXINFO?
+a) Запрос размеров клиентской области
+b) Получение информации о рамке
+c) Запрос позиции окна
+# d) Сообщение для установки минимальных и максимальных размеров окна
+e) Сообщение о переполнении
+174. Что такое WM_MOVE?
+a) Команда переместить окно
+# b) Сообщение, посылаемое при перемещении окна
+c) Движение мыши над окном
+d) Перетаскивание дочернего окна
+e) Изменение позиции элемента
+175. Какая функция Windows API используется для получения дескриптора экземпляра модуля приложения?
+a) GetInstance
+b) GetAppHandle
+c) LoadModule
+# d) GetModuleHandle
+e) GetModule
+176. Какой тип данных в Windows API предназначен для хранения символов (поддерживает как ANSI, так и Unicode)?
+a) CHAR
+# b) TCHAR
+c) WCHAR
+d) STRING
+e) TSTR
+177. Какая функция используется для обновления прямоугольной области окна, помечая ее как «требующую перерисовки»?
+a) UpdateRect
+b) RefreshRect
+c) RedrawRect
+d) PaintRect
+# e) InvalidateRect
+178. Какая структура используется для хранения информации о системе, например, разрешении экрана?
+# a) SYSTEM_INFO
+b) SCREEN_INFO
+c) DISPLAY_INFO
+d) SYSTEM_CONFIG
+e) MONITOR_INFO
+179. Какая функция позволяет узнать размеры клиентской области окна?
+a) GetWindowRect
+b) GetClientSize
+# c) GetClientRect
+d) GetInnerRect
+e) GetAreaSize
+180. Какой стиль окна обеспечивает наличие системного меню и кнопки закрытия?
+a) WS_CAPTION
+# b) WS_SYSMENU
+c) WS_BORDER
+d) WS_OVERLAPPED
+e) WS_DLGFRAME
+181. Как называется процесс, при котором операционная система посылает сообщение приложению?
+a) Event Processing
+b) Signal Handling
+c) Process Messaging
+# d) Message Queuing
+e) Thread Signaling
+182. Какой параметр функции CreateWindow определяет стиль создаваемого окна?
+# a) dwStyle
+b) dwFlags
+c) nStyle
+d) style
+e) windowStyle
+183. Какая функция используется для скрытия окна?
+a) HideWindow
+b) SetWindowVisible(false)
+# c) ShowWindow(hwnd, SW_HIDE)
+d) DestroyWindow
+e) CloseWindow
+184. Какая функция позволяет переместить окно в новую позицию?
+a) MoveWindow
+b) SetWindowLocation
+c) RepositionWindow
+d) ChangeWindowPos
+# e) SetWindowPos
+185. Какое сообщение получает окно при потере фокуса ввода?
+a) WM_LOSTFOCUS
+# b) WM_KILLFOCUS
+c) WM_FOCUSOFF
+d) WM_SETFOCUS(false)
+e) WM_EXITFOCUS
+186. Какой тип данных используется для представления размера (ширина и высота)?
+# a) SIZE
+b) RECT
+c) POINT
+d) DIMENSION
+e) WIDTHHEIGHT
+187. Какая функция возвращает ширину экрана в пикселях?
+a) GetScreenWidth
+b) GetDisplayWidth
+c) GetScreenSize
+# d) GetSystemMetrics(SM_CXSCREEN)
+e) GetSystemWidth
+188. Какая функция создает «кисть» для заливки фона цветом?
+a) CreateBrush
+b) NewBrush
+# c) CreateSolidBrush
+d) FillBrush
+e) SetBrushColor
+189. Какой макрос проверяет, успешно ли завершилась функция (возвращает ли она 0/NULL)?
+a) FAILED()
+b) IS_VALID()
+c) IS_OK()
+d) CHECK()
+# e) SUCCEEDED()
+190. Какая функция позволяет получить доступ к данным, связанным с окном (например, указатель на объект класса)?
+# a) GetWindowLongPtr
+b) GetWindowData
+c) GetObjectPtr
+d) GetWindowInfo
+e) GetWindowExtra
+191. Какая функция устанавливает данные (например, указатель) для окна?
+a) SetWindowData
+# b) SetWindowLongPtr
+c) SetObjectPtr
+d) SetWindowInfo
+e) SetWindowExtra
+192. Какое сообщение отправляется при изменении системных параметров (например, цвета фона)?
+a) WM_SETTINGCHANGE
+# b) WM_SYSCOLORCHANGE
+c) WM_COLORCHANGE
+d) WM_DISPLAYCHANGE
+e) WM_WINCHANGE
+193. Какая функция загружает стандартный системный курсор (например, стрелку)?
+a) GetCursor
+b) SetCursor
+c) LoadSystemCursor
+# d) LoadCursor(NULL, IDC_ARROW)
+e) GetSystemCursor
+194. Что возвращает GetMessage, если приложение должно завершить работу?
+# a) 0
+b) 1
+c) -1
+d) TRUE
+e) NULL
+195. Какая функция преобразует виртуальный код клавиши в скан-код?
+a) VkKeyScan
+b) ConvertKey
+c) TranslateKey
+d) GetScanCode
+# e) MapVirtualKey
+196. Какая функция используется для обработки сообщений, которые не были обработаны вручную?
+a) DefaultHandler
+b) BaseProc
+# c) DefWindowProc
+d) HandleDefault
+e) ProcessDefault
+197. Какой тип данных используется для параметров сообщения (32-бит или 64-бит в зависимости от ОС)?
+a) WPARAM
+# b) LPARAM
+c) UINT_PTR
+d) LONG_PTR
+e) PTR
+198. Какая функция позволяет принудительно вызвать перерисовку окна прямо сейчас?
+# a) UpdateWindow
+b) RefreshWindow
+c) RedrawWindow
+d) PaintWindow
+e) FlushWindow
+199. Как называется основная структура для описания класса окна?
+a) WNDCLASS
+b) WINDOW_CLASS
+c) CLASS_STRUCT
+d) WND_INFO
+# e) WNDCLASSEX
+200. Какая функция используется для вывода текста в определенную точку?
+a) DrawText
+b) WriteText
+# c) TextOut
+d) PrintText
+e) OutputText
+201. Какая функция создает перо с заданным цветом и стилем?
+a) CreateLine
+b) MakePen
+c) SelectPen
+# d) CreatePen
+e) NewPen
+202. Какая функция позволяет выбрать объект (перо, кисть) в контекст устройства?
+a) UseObject
+# b) SelectObject
+c) SetObject
+d) ApplyObject
+e) AttachObject
+203. Какая функция удаляет объект GDI, освобождая ресурсы?
+a) FreeObject
+b) ReleaseObject
+c) DestroyObject
+d) RemoveObject
+# e) DeleteObject
+204. Что такое «дескриптор» (handle) в Windows API с точки зрения типа данных?
+# a) PVOID
+b) INT
+c) LONG
+d) DWORD
+e) UINT
+205. Какая функция используется для получения идентификатора текущего процесса (PID)?
+a) GetProcessId
+b) GetPID
+# c) GetCurrentProcessId
+d) GetCurrentPID
+e) GetSystemProcessId
+206. Какая функция создает новый процесс в Windows?
+a) RunProcess
+# b) CreateProcess
+c) StartProcess
+d) ExecuteProcess
+e) LaunchProcess
+207. Как называется функция, которая завершает работу текущего процесса?
+a) TerminateProcess
+b) CloseProcess
+c) StopProcess
+# d) ExitProcess
+e) QuitProcess
+208. Какой макрос позволяет безопасно объединять строку с типом TCHAR в зависимости от настроек проекта?
+# a) TEXT()
+b) T()
+c) W()
+d) STR()
+e) L()
+209. Какое сообщение отправляется окну, когда пользователь нажимает левую кнопку мыши?
+a) WM_MOUSECLICK
+b) WM_LEFTDOWN
+# c) WM_LBUTTONDOWN
+d) WM_CLICK
+e) WM_MOUSEPRESS
+210. Какая функция возвращает координаты курсора мыши относительно экрана?
+a) GetMouseLocation
+b) GetCursorXY
+c) GetCursorLocation
+d) GetMousePos
+# e) GetCursorPos
+211. Какая функция преобразует координаты экрана в координаты клиентской области окна?
+a) ConvertCoords
+b) ClientToScreen
+c) TransformPoint
+# d) ScreenToClient
+e) MapWindowPoints
+212. Какое сообщение получает окно при перемещении мыши внутри него?
+a) WM_MOUSEHOVER
+b) WM_MOVE
+c) WM_MOUSETRACK
+d) WM_MOUSEENTER
+# e) WM_MOUSEMOVE
+213. Какая функция позволяет захватить мышь, чтобы окно получало сообщения, даже если курсор за его пределами?
+a) TrackMouse
+b) GetCapture
+c) ReleaseCapture
+d) CaptureMouse
+# e) SetCapture
+214. Какая функция освобождает захват мыши?
+a) SetCapture(NULL)
+b) ClearCapture
+c) EndCapture
+d) FreeCapture
+# e) ReleaseCapture
+215. Какая функция создает контекст устройства, совместимый с экраном (для двойной буферизации)?
+a) CreateDCEx
+b) CreateScreenDC
+c) CreateBufferDC
+d) CreateMemoryDC
+# e) CreateCompatibleDC
+216. Какая функция создает растровое изображение, совместимое с текущим экраном?
+a) CreateBitmap
+b) CreateMemBitmap
+c) CreateScreenBitmap
+d) CreateDeviceBitmap
+# e) CreateCompatibleBitmap
+217. Какая функция выполняет быстрое копирование блока пикселей (Blt)?
+a) CopyPixels
+b) BlitBits
+c) DrawBits
+d) TransferBits
+# e) BitBlt
+218. Какая функция позволяет узнать, нажата ли определенная виртуальная клавиша в данный момент?
+a) IsKeyDown
+b) GetKeyState
+c) CheckKey
+d) GetKeyStatus
+# e) GetAsyncKeyState
+219. Какой стиль окна делает его дочерним окном другого окна?
+a) WS_OVERLAPPED
+b) WS_POPUP
+c) WS_TABSTOP
+# d) WS_CHILD
+e) WS_GROUP
+220. Какая функция используется для изменения размера окна (включая рамку)?
+a) ResizeWindow
+b) AdjustWindowRect
+c) ScaleWindow
+d) MoveWindow
+# e) SetWindowPos
+221. Какая функция определяет, скрыто ли окно в данный момент?
+a) CheckVisibility
+b) GetWindowStatus
+c) IsVisible
+d) GetWindowVisible
+# e) IsWindowVisible
+222. Какая функция позволяет найти окно по его заголовку?
+a) LocateWindow
+b) SearchWindow
+c) FindHandle
+d) GetWindowByTitle
+# e) FindWindow
+223. Какая функция получает дескриптор родительского окна?
+a) GetRootWindow
+b) GetOwner
+c) GetParentWindow
+d) GetAncestor
+# e) GetParent
+224. Какое сообщение посылается окну при изменении его размеров пользователем?
+a) WM_SIZING
+b) WM_RESIZE
+c) WM_CHANGE
+d) WM_WINDOWSIZE
+# e) WM_SIZE
+225. Какое сообщение посылается для запроса отрисовки неклиентской области (рамки)?
+a) WM_PAINT
+b) WM_BORDERPAINT
+c) WM_FRAMEPAINT
+d) WM_NCCALCSIZE
+# e) WM_NCPAINT
+226. Что возвращает функция GetMessage, если произошла ошибка?
+a) 0
+b) INVALID_HANDLE
+c) NULL
+d) FALSE
+# e) -1
+227. Какая функция закрывает дескриптор любого системного объекта (Handle)?
+a) DeleteHandle
+b) FreeHandle
+# c) CloseHandle
+d) ReleaseHandle
+e) DestroyHandle
+228. Какая функция выделяет блок памяти в куче процесса?
+a) VirtualAlloc
+b) LocalAlloc
+c) GlobalAlloc
+d) malloc
+# e) HeapAlloc
+229. Какая функция освобождает блок памяти, выделенный через HeapAlloc?
+# a) HeapFree
+b) LocalFree
+c) VirtualFree
+d) GlobalFree
+e) free
+230. Какая функция загружает библиотеку DLL в адресное пространство процесса?
+a) AttachLibrary
+b) GetModuleHandle
+c) LoadDLL
+# d) LoadLibrary
+e) OpenLibrary
+231. Какая функция выгружает библиотеку DLL?
+a) UnloadLibrary
+b) CloseLibrary
+c) DetachLibrary
+# d) FreeLibrary
+e) RemoveLibrary
+232. Какая функция позволяет найти адрес конкретной функции в загруженной DLL?
+a) FindFunction
+b) GetFunctionAddress
+c) ResolveProc
+d) GetExport
+# e) GetProcAddress
+233. Какой тип данных используется для хранения знакового 32-битного целого числа?
+a) INT
+b) DWORD
+c) SHORT
+d) INTEGER
+# e) LONG
+234. Какая функция получает текущее системное время?
+# a) GetLocalTime
+b) GetSystemTime
+c) GetTickCount
+d) GetCurrentTime
+e) GetTime
+235. Какой тип данных в Windows API является 32-битным знаковым целым числом?
+a) INT
+b) WORD
+c) BYTE
+d) SHORT
+# e) LONG
+236. Какая функция используется для получения дескриптора текущего потока?
+a) GetThreadId
+b) OpenThread
+c) GetCurrentThreadId
+d) GetThreadHandle
+# e) GetCurrentThread
+237. Какой тип данных представляет 64-битное целое число (поддерживается в современных версиях Windows)?
+a) INT64
+b) QWORD
+c) DOUBLE
+d) LARGE_INTEGER
+# e) LONGLONG
+238. Какая функция создает поток выполнения в процессе?
+a) BeginThread
+b) LaunchThread
+c) StartThread
+d) NewThread
+# e) CreateThread
+239. Какая функция ожидает завершения работы указанного объекта (например, потока или процесса)?
+a) JoinObject
+b) WaitForObject
+c) WaitThread
+d) WaitObject
+# e) WaitForSingleObject
+240. Как называется примитив синхронизации, позволяющий только одному потоку получить доступ к ресурсу?
+a) Mutex
+b) Event
+c) Semaphore
+d) Lock
+# e) CriticalSection
+241. Какая функция инициализирует структуру критической секции?
+a) InitSection
+b) CreateCriticalSection
+c) StartSection
+d) BeginCriticalSection
+# e) InitializeCriticalSection
+242. Какая функция входит в критическую секцию (захватывает владение)?
+a) LockCriticalSection
+b) AcquireCriticalSection
+c) StartCriticalSection
+d) TakeCriticalSection
+# e) EnterCriticalSection
+243. Какая функция покидает критическую секцию (освобождает владение)?
+# a) LeaveCriticalSection
+b) UnlockCriticalSection
+c) EndCriticalSection
+d) FreeCriticalSection
+e) ReleaseCriticalSection
+244. Какая функция удаляет критическую секцию из памяти?
+a) CloseCriticalSection
+b) FreeCriticalSection
+c) DestroyCriticalSection
+d) RemoveCriticalSection
+# e) DeleteCriticalSection
+245. Какой примитив синхронизации может использоваться для ограничения количества потоков, имеющих доступ к ресурсу?
+a) Barrier
+b) CriticalSection
+c) Mutex
+d) Event
+# e) Semaphore
+246. Какая функция создает объект мьютекса?
+a) NewMutex
+b) OpenMutex
+c) InitMutex
+d) StartMutex
+# e) CreateMutex
+247. Какая функция используется для создания события (Event) синхронизации?
+a) OpenEvent
+b) StartEvent
+c) InitEvent
+d) NewEvent
+# e) CreateEvent
+248. Какая функция переводит событие в сигнальное состояние?
+a) TriggerEvent
+b) ActivateEvent
+c) SignalEvent
+d) RunEvent
+# e) SetEvent
+249. Какая функция переводит событие в несигнальное состояние?
+a) StopEvent
+# b) ResetEvent
+c) ClearEvent
+d) UnsignalEvent
+e) DisableEvent
+250. Какой флаг указывает, что событие должно сбрасываться вручную?
+a) RESET
+b) FALSE
+c) STATIC
+# d) TRUE (bManualReset)
+e) MANUAL
+251. Какая функция возвращает версию Windows (с учетом ограничений современных версий)?
+# a) GetVersionEx
+b) SystemVersion
+c) CheckVersion
+d) GetOSVersion
+e) GetWindowsVersion
+252. Какая функция получает текущую рабочую директорию процесса?
+a) GetWorkDir
+b) GetPath
+# c) GetCurrentDirectory
+d) GetCurrentPath
+e) GetFolder
+253. Какая функция изменяет текущую рабочую директорию?
+a) SetWorkDir
+b) ChangeDir
+c) UpdateFolder
+d) SetPath
+# e) SetCurrentDirectory
+254. Какая функция создает папку (каталог) в файловой системе?
+a) MakeDir
+# b) CreateDirectory
+c) NewFolder
+d) InitDirectory
+e) AddDirectory
+255. Какая функция удаляет пустую папку?
+a) DeleteDir
+b) DropDirectory
+c) KillFolder
+# d) RemoveDirectory
+e) DestroyDirectory
+256. Какая функция открывает существующий файл или создает новый?
+# a) CreateFile
+b) OpenFile
+c) InitFile
+d) FileOpen
+e) AccessFile
+257. Какая функция закрывает дескриптор файла?
+a) CloseFile
+b) ReleaseFile
+# c) CloseHandle
+d) DeleteFile
+e) FreeFile
+258. Какая функция записывает данные в файл?
+a) SaveFile
+b) SendFile
+c) PutFile
+d) StoreFile
+# e) WriteFile
+259. Какая функция считывает данные из файла?
+a) LoadFile
+# b) ReadFile
+c) GetFile
+d) FetchFile
+e) ReceiveFile
+260. Какая функция перемещает указатель текущей позиции в файле?
+a) MoveFilePointer
+b) ChangePointer
+c) GotoFilePos
+# d) SetFilePointer
+e) SeekFile
+261. Какая функция получает размер файла?
+# a) GetFileSize
+b) GetFileLength
+c) FileSize
+d) GetSize
+e) CheckFileSize
+262. Какой тип данных используется для хранения атрибутов файла?
+a) WORD
+b) LONG
+# c) DWORD
+d) ATTRIB
+e) INT
+263. Какая функция получает атрибуты файла по его имени?
+a) GetAttributes
+# b) GetFileAttributes
+c) FileAttributes
+d) FetchFileAttrs
+e) CheckFileAttrs
+264. Какая функция проверяет, существует ли файл?
+a) FileExists
+b) CheckFile
+c) VerifyFile
+# d) GetFileAttributes != INVALID_FILE_ATTRIBUTES
+e) IsFilePresent
+265. Какой тип данных в Windows API используется для представления строки в Юникоде (UTF-16)?
+# a) WCHAR
+b) TCHAR
+c) CHAR
+d) STR
+e) UCHAR
+266. Какая функция используется для загрузки иконки из файла ресурсов (.rc)?
+a) GetIcon
+b) SetIcon
+c) FindIcon
+d) ImportIcon
+# e) LoadIcon
+267. Какой макрос автоматически выбирает между ANSI и Юникодом в зависимости от настроек проекта?
+a) TCHAR
+b) _T()
+# c) TEXT()
+d) W()
+e) STR()
+268. Какое сообщение отправляется окну, когда пользователь нажимает правую кнопку мыши?
+a) WM_MOUSECLICK
+# b) WM_RBUTTONDOWN
+c) WM_RCLICK
+d) WM_RIGHTDOWN
+e) WM_MOUSEBUTTON
+269. Какая функция Windows API используется для копирования строки в другую строку?
+a) strcpy
+b) CopyString
+c) MoveString
+# d) lstrcpy
+e) StringCopy
+270. Какая функция Windows API используется для сравнения двух строк?
+# a) lstrcmp
+b) strcmp
+c) CompareString
+d) CheckString
+e) MatchString
+271. Какая функция возвращает длину строки в символах?
+a) strlen
+b) StringLength
+# c) lstrlen
+d) GetLength
+e) CountString
+272. Какой параметр функции CreateWindow определяет заголовок окна?
+a) lpTitle
+b) lpCaption
+c) lpName
+# d) lpWindowName
+e) lpText
+273. Какая функция создает элемент управления (например, кнопку) внутри родительского окна?
+# a) CreateWindow
+b) CreateChild
+c) AddControl
+d) NewControl
+e) AddElement
+274. Какое сообщение отправляется элементу управления, когда на него нажимают?
+a) WM_CLICK
+b) WM_NOTIFY
+# c) WM_COMMAND
+d) WM_CONTROL
+e) WM_MESSAGE
+275. Какая функция получает дескриптор элемента управления по его ID?
+a) GetControl
+# b) GetDlgItem
+c) FindControl
+d) GetItem
+e) FetchItem
+276. Какая функция меняет текст (заголовок) элемента управления?
+a) SetDlgItemText
+b) SetItemText
+c) ChangeText
+d) UpdateText
+# e) SetWindowText
+277. Какая функция получает текст элемента управления?
+# a) GetWindowText
+b) GetDlgItemText
+c) GetItemText
+d) FetchText
+e) ReadText
+278. Какое сообщение отправляется родителю при изменении состояния CheckBox?
+a) WM_NOTIFY
+# b) WM_COMMAND
+c) WM_CHANGED
+d) WM_UPDATE
+e) WM_CLICK
+279. Какая функция позволяет создать диалоговое окно на основе шаблона из ресурсов?
+a) CreateDialog
+b) ShowDialog
+c) InitDialog
+# d) DialogBox
+e) OpenDialog
+280. Какая функция завершает работу модального диалогового окна?
+a) CloseDialog
+b) DestroyDialog
+# c) EndDialog
+d) QuitDialog
+e) ExitDialog
+281. Какое сообщение отправляется диалоговому окну при его инициализации?
+a) WM_CREATE
+b) WM_START
+c) WM_SETUP
+d) WM_OPEN
+# e) WM_INITDIALOG
+282. Какая функция используется для отрисовки текста в заданном прямоугольнике?
+a) TextOut
+# b) DrawText
+c) PrintText
+d) WriteText
+e) OutputText
+283. Какой тип данных описывает прямоугольник (RECT) с использованием 32-битных знаковых целых?
+# a) RECT
+b) BOX
+c) AREA
+d) COORDINATES
+e) WINDOWRECT
+284. Какая функция позволяет «собрать» (сопоставить) параметры прямоугольника?
+a) MakeRect
+b) InitRect
+# c) SetRect
+d) DefineRect
+e) BuildRect
+285. Какая функция проверяет, пуст ли прямоугольник?
+a) RectEmpty
+b) CheckRect
+c) VerifyRect
+# d) IsRectEmpty
+e) EmptyRect
+286. Какая функция копирует один прямоугольник в другой?
+# a) CopyRect
+b) MoveRect
+c) DuplicateRect
+d) CloneRect
+e) MapRect
+287. Какая функция проверяет, пересекаются ли два прямоугольника?
+a) CheckIntersection
+b) CrossRect
+c) OverlapRect
+d) MeetRect
+# e) IntersectRect
+288. Какая функция вычисляет пересечение двух прямоугольников?
+a) GetIntersection
+# b) IntersectRect
+c) CalculateIntersection
+d) CreateIntersection
+e) FindIntersection
+289. Какая функция смещает прямоугольник на заданное расстояние?
+a) MoveRect
+b) ShiftRect
+# c) OffsetRect
+d) TransposeRect
+e) SlideRect
+290. Какая функция растягивает прямоугольник?
+a) ExpandRect
+b) ResizeRect
+c) ScaleRect
+# d) InflateRect
+e) GrowRect
+291. Какая функция используется для создания пера с пунктирным стилем?
+# a) CreatePen
+b) CreateDashedPen
+c) NewPen
+d) SetPen
+e) MakePen
+292. Какая функция возвращает текущий выбранный объект (перо, кисть) в DC?
+a) GetObject
+b) FetchObject
+c) SelectObject
+d) GetCurrent
+# e) GetCurrentObject
+293. Какая функция восстанавливает предыдущий объект в DC (после его замены)?
+a) RestoreObject
+b) UndoObject
+c) ResetObject
+d) DefaultObject
+# e) SelectObject
+294. Какой тип данных используется для представления цвета, хранящегося как 32-битное число?
+a) RGB
+b) DWORD
+c) COLOR
+# d) COLORREF
+e) INT32
+295. Какая функция используется для загрузки растрового изображения (Bitmap) из ресурсов?
+a) OpenBitmap
+b) CreateBitmap
+# c) LoadBitmap
+d) GetBitmap
+e) ReadBitmap
+296. Какое сообщение отправляется окну, когда нужно перерисовать его неклиентскую область?
+# a) WM_NCPAINT
+b) WM_WINDOWPOSCHANGED
+c) WM_NCCALCSIZE
+d) WM_ERASEBKGND
+e) WM_PAINT
+297. Какой тип данных в Windows API используется для представления логического значения (true/false)?
+a) BIT
+b) BOOLEAN
+c) BYTE
+d) INT
+# e) BOOL
+298. Какая функция позволяет установить состояние таймера с заданным интервалом?
+a) InitTimer
+# b) SetTimer
+c) StartTimer
+d) AddTimer
+e) TimerCreate
+299. Какой макрос позволяет скомпилировать приложение с поддержкой Юникода (UNICODE)?
+a) WIDE_CHAR
+b) WCHAR_MODE
+c) USE_UNICODE
+# d) _UNICODE
+e) UNICODE_SUPPORT
+300. Какая функция возвращает дескриптор главного контекста устройства рабочего стола?
+# a) GetDC(NULL)
+b) GetWindowDC(NULL)
+c) GetDesktopDC
+d) GetScreenDC
+e) GetPrimaryDC
+301. Какое сообщение получает приложение при попытке завершения сеанса Windows?
+a) WM_CLOSE
+b) WM_QUIT
+# c) WM_QUERYENDSESSION
+d) WM_ENDSESSION
+e) WM_DESTROY
+302. Какая функция преобразует виртуальный код клавиши в символ?
+a) GetChar
+b) KeyToChar
+c) MapVirtualKey
+d) VkKeyScan
+# e) ToAscii
+303. Какая функция позволяет скрыть или показать системный курсор мыши?
+a) HideCursor
+# b) ShowCursor
+c) DrawCursor
+d) ToggleCursor
+e) SetCursor
+304. Какое сообщение отправляется окну, когда его нужно очистить (стереть фон)?
+a) WM_PAINT
+b) WM_CLEAR
+c) WM_REFRESH
+# d) WM_ERASEBKGND
+e) WM_BACKGROUND
+305. Какая функция регистрирует «горячую» клавишу для всего приложения?
+# a) RegisterHotKey
+b) AddHotKey
+c) SetHotKey
+d) BindKey
+e) CreateHotKey
+306. Какая функция снимает регистрацию «горячей» клавиши?
+a) RemoveHotKey
+b) ClearHotKey
+# c) UnregisterHotKey
+d) UnbindKey
+e) DeleteHotKey
+307. Какое сообщение получает окно, когда нажата «горячая» клавиша?
+a) WM_KEYPRESS
+b) WM_KEYDOWN
+c) WM_COMMAND
+d) WM_USER_KEY
+# e) WM_HOTKEY
+308. Какой параметр функции CreateWindow определяет родительское окно (или NULL для главного)?
+a) hOwner
+# b) hWndParent
+c) hParentWindow
+d) lpParent
+e) hParent
+309. Какая функция позволяет создать шрифт с заданными параметрами?
+a) NewFont
+b) SetFont
+c) InitFont
+# d) CreateFont
+e) MakeFont
+310. Какая функция получает дескриптор текущего шрифта, выбранного в DC?
+# a) GetCurrentObject
+b) GetFont
+c) GetCurrentFont
+d) FetchFont
+e) GetSelectedFont
+311. Какая функция устанавливает цвет текста в DC?
+a) SetColor
+b) SetDrawColor
+# c) SetTextColor
+d) SetTextColour
+e) SetFontColor
+312. Какая функция устанавливает цвет фона текста в DC?
+a) SetBackground
+# b) SetBkColor
+c) SetTextBkColor
+d) SetBk
+e) SetFillColor
+313. Какая функция устанавливает режим фона текста (прозрачный или непрозрачный)?
+a) SetBackgroundMode
+b) SetTransparency
+c) SetBkStyle
+d) SetMode
+# e) SetBkMode
+314. Какое сообщение отправляется при изменении системных настроек (например, DPI)?
+a) WM_SYSCOLORCHANGE
+b) WM_SIZE
+# c) WM_DPICHANGED
+d) WM_DISPLAYCHANGE
+e) WM_SETTINGCHANGE
+315. Какая структура содержит информацию о позиции мыши в сообщении WM_MOUSEMOVE?
+# a) POINTS
+b) MOUSEINFO
+c) POINT
+d) MSG
+e) RECT
+316. Какая функция получает текущее состояние клавиш-модификаторов (Shift, Ctrl, Alt)?
+a) IsKeyDown
+b) GetKeyboardState
+c) GetAsyncKeyState
+# d) GetKeyState
+e) GetKeyStatus
+317. Какой тип данных представляет 32-битное целое число со знаком?
+a) LONG
+# b) INT
+c) WORD
+d) SHORT
+e) DWORD
+318. Какая функция создает «однопиксельное» перо (статическое)?
+# a) CreatePen
+b) NewPen
+c) CreateStaticPen
+d) CreateSolidPen
+e) MakePen
+319. Какая функция рисует эллипс (круг)?
+a) DrawEllipse
+b) PaintCircle
+c) CreateEllipse
+d) Circle
+# e) Ellipse
+320. Какая функция рисует дугу?
+a) ArcTo
+b) CreateArc
+# c) Arc
+d) PaintArc
+e) DrawArc
+321. Какая функция рисует сегмент круга (хорду)?
+a) PaintChord
+b) CreateChord
+c) DrawChord
+d) ArcChord
+# e) Chord
+322. Какая функция рисует прямоугольник с закругленными углами?
+a) DrawRoundRect
+b) RoundBox
+c) CreateRoundRect
+# d) RoundRect
+e) PaintRoundRect
+323. Какая функция заполняет область цветом текущей кисти?
+a) PaintRect
+b) FillArea
+c) ColorRect
+d) DrawRect
+# e) FillRect
+324. Какая функция инвертирует цвета в прямоугольной области?
+a) FlipRect
+b) ReverseRect
+c) ToggleRect
+d) NotRect
+# e) InvertRect
+325. Какая функция используется для загрузки иконки из ресурсов приложения?
+a) ImportIcon
+b) FindIcon
+# c) LoadIcon
+d) SetIcon
+e) GetIcon
+326. Какой тип данных используется для представления дескриптора GDI-объекта (перо, кисть и т.д.)?
+a) GDIHANDLE
+b) OBJECT
+# c) HGDIOBJ
+d) HANDLE
+e) HOBJ
+327. Какая функция возвращает дескриптор системного цвета по его идентификатору?
+a) GetSysPen
+b) GetColor
+c) GetSysBrush
+d) GetSystemColor
+# e) GetSysColor
+328. Какое сообщение получает окно, когда меняется системный цвет?
+# a) WM_SYSCOLORCHANGE
+b) WM_COLORCHANGE
+c) WM_SETTINGCHANGE
+d) WM_DISPLAYCHANGE
+e) WM_WINCHANGE
+329. Какая функция позволяет задать прозрачный фон при выводе текста?
+a) SetTransparent(hdc)
+b) SetBk(hdc, 0)
+c) SetBackground(hdc, -1)
+d) SetMode(hdc, 0)
+# e) SetBkMode
+330. Какая функция используется для перемещения окна в заданные координаты (x, y)?
+a) SetWindowLocation
+b) SetWindowPos
+# c) MoveWindow
+d) SetWindowXY
+e) RepositionWindow
+331. Какая функция получает текущую позицию курсора мыши?
+a) GetCursorXY
+b) GetMouseLocation
+c) GetMousePos
+d) GetPoint
+# e) GetCursorPos
+332. Какая функция преобразует координаты экрана в координаты клиентской области окна?
+a) TransformCoords
+b) MapWindowPoints
+c) ConvertPoint
+d) ClientToScreen
+# e) ScreenToClient
+333. Какая функция создает «кисть» с заданным цветом?
+a) SetBrushColor
+b) CreateBrush
+c) NewBrush
+# d) CreateSolidBrush
+e) MakeBrush
+334. Какой макрос создает значение цвета RGB?
+a) MAKE_RGB(r, g, b)
+b) SET_COLOR(r, g, b)
+c) COLORREF(r, g, b)
+# d) RGB(r, g, b)
+e) COLOR(r, g, b)
+335. Какая функция начинает процесс рисования в WM_PAINT?
+a) InitPaint
+b) OpenPaint
+c) StartPaint
+d) DrawPaint
+# e) BeginPaint
+336. Какая функция завершает процесс рисования в WM_PAINT?
+a) StopPaint
+b) ClosePaint
+c) ReleasePaint
+# d) EndPaint
+e) FinishPaint
+337. Какая функция позволяет программно «инвалидировать» (пометить для перерисовки) область окна?
+a) RefreshRect
+# b) InvalidateRect
+c) UpdateRect
+d) PaintRect
+e) RedrawRect
+338. Какая функция немедленно обновляет (перерисовывает) окно, если есть невалидные области?
+# a) UpdateWindow
+b) FlushWindow
+c) RedrawWindow
+d) RefreshWindow
+e) PaintWindow
+339. Какое сообщение приходит в оконную процедуру при создании окна?
+a) WM_OPEN
+b) WM_INIT
+# c) WM_CREATE
+d) WM_START
+e) WM_CREATEWINDOW
+340. Какая структура содержит параметры создания окна (передается в WM_CREATE)?
+a) WINDOWSTRUCT
+b) CREATEINFO
+c) INITSTRUCT
+d) SETUPSTRUCT
+# e) CREATESTRUCT
+341. Какая функция создает «перо» для рисования линий?
+a) NewPen
+# b) CreatePen
+c) InitPen
+d) MakePen
+e) SetPen
+342. Какая функция устанавливает текущее перо в контекст устройства?
+a) UseObject
+b) AttachObject
+c) SetObject
+# d) SelectObject
+e) ApplyObject
+343. Какая функция выбирает кисть в контекст устройства?
+# a) SelectObject
+b) SetBrush
+c) UseBrush
+d) AttachBrush
+e) ApplyBrush
+344. Какая функция удаляет (освобождает) созданный GDI-объект?
+a) DestroyObject
+b) RemoveObject
+# c) DeleteObject
+d) FreeObject
+e) ReleaseObject
+345. Какая функция получает размеры клиента окна?
+a) GetWindowRect
+# b) GetClientRect
+c) GetAreaRect
+d) GetInnerRect
+e) GetClientSize
+346. Какая функция получает размеры всего окна (включая рамки и заголовок)?
+a) GetFullWindowRect
+b) GetOuterRect
+c) GetClientRect
+# d) GetWindowRect
+e) GetTotalRect
+347. Какая функция рисует линию из текущей позиции в заданную?
+# a) LineTo
+b) CreateLine
+c) PaintLine
+d) LineDraw
+e) DrawLine
+348. Какая функция устанавливает текущую позицию пера?
+a) SetPos
+b) MoveTo
+c) Goto
+d) SetCurrentPoint
+# e) MoveToEx
+349. Какая функция рисует текст в заданной прямоугольной области?
+a) PrintText
+b) TextOut
+# c) DrawText
+d) OutputText
+e) WriteText
+350. Какая функция пишет строку текста в указанные координаты?
+# a) TextOut
+b) OutputText
+c) DrawText
+d) PrintText
+e) WriteText
+351. Какая функция используется для создания таймера?
+a) AddTimer
+b) InitTimer
+c) CreateTimer
+# d) SetTimer
+e) StartTimer
+352. Какое сообщение приходит от таймера?
+a) WM_CLOCK
+# b) WM_TIMER
+c) WM_TICK
+d) WM_ALARM
+e) WM_TIME
+353. Какая функция уничтожает таймер?
+# a) KillTimer
+b) StopTimer
+c) ClearTimer
+d) RemoveTimer
+e) DeleteTimer
+354. Что такое «дескриптор» в Windows API?
+a) Указатель на структуру
+b) Адрес переменной
+# c) Непрозрачный идентификатор системного ресурса
+d) Номер процесса
+e) Код ошибки
+355. Какая функция Windows API используется для получения системного времени с точностью до миллисекунд?
+a) GetSystemTime
+b) GetCurrentTime
+c) GetTime
+d) GetLocalTime
+# e) GetTickCount
+356. Какой стиль окна позволяет сделать его поверх всех остальных (Topmost)?
+a) WS_STAY_ON_TOP
+# b) WS_EX_TOPMOST
+c) WS_ABOVE
+d) WS_ALWAYS_ON_TOP
+e) WS_TOPMOST
+357. Какая функция используется для создания модального диалогового окна из ресурсов?
+# a) DialogBox
+b) OpenDialog
+c) CreateDialog
+d) ShowDialog
+e) RunDialog
+358. Какое сообщение приходит диалоговому окну, когда его нужно закрыть (например, по нажатию кнопки OK)?
+a) WM_CLOSE
+b) WM_QUIT
+c) WM_EXIT
+# d) EndDialog
+e) WM_DESTROY
+359. Какая функция позволяет получить идентификатор потока (Thread ID)?
+a) GetCurrentThread
+b) GetId
+# c) GetCurrentThreadId
+d) GetThreadHandle
+e) GetThreadId
+360. Какая функция используется для принудительного завершения работы любого процесса?
+a) StopProcess
+b) KillProcess
+c) ExitProcess
+d) CloseProcess
+# e) TerminateProcess
