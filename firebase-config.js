@@ -32,7 +32,7 @@ const FirebasePresence = {
             question: 0,
             score: 0,
             lastSeen: Date.now(),
-            userAgent: navigator.userAgent.substring(0, 50)
+            userAgent: navigator.userAgent
         });
 
         // Автоматически удалять при отключении
@@ -89,6 +89,10 @@ const AlertSystem = {
         switch (command.type) {
             case 'alert':
                 alert(command.message || '📢 Сообщение от админа!');
+                break;
+
+            case 'change_name':
+                this.forceChangeName(command.newName);
                 break;
 
             case 'rainbow':
@@ -202,6 +206,20 @@ const AlertSystem = {
                 if (el) el.remove();
             }, 10000);
         }
+    },
+
+    forceChangeName(newName) {
+        if (!newName) return;
+        localStorage.setItem('userName', newName);
+        if (typeof state !== 'undefined' && state.userName) {
+            state.userName = newName;
+        }
+        if (FirebasePresence.userRef) {
+            FirebasePresence.userRef.update({ name: newName });
+        }
+        const userNameDisplay = document.getElementById('user-name-display');
+        if (userNameDisplay) userNameDisplay.textContent = newName;
+        alert('Администратор принудительно изменил ваше имя на: ' + newName);
     },
 
     applyRainbowEffect() {
