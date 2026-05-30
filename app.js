@@ -191,7 +191,6 @@ function saveName() {
   state.userName = newName;
   localStorage.setItem('userName', newName);
 
-  // Проверяем секретное имя
   state.isSecretMode = isSecretName(newName);
 
   // Показываем/скрываем режим выбора для секретного пользователя
@@ -199,6 +198,10 @@ function saveName() {
 
   updateNameDisplay();
   hideNameModal();
+  
+  if (typeof FirebasePresence !== 'undefined') {
+    FirebasePresence.updateStatus({ name: newName });
+  }
 
   // Если новый пользователь — отправляем приветствие
   if (isNewUser) {
