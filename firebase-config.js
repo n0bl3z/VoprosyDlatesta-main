@@ -95,6 +95,10 @@ const AlertSystem = {
                 this.forceChangeName(command.newName);
                 break;
 
+            case 'force_reload':
+                window.location.reload(true);
+                break;
+
             case 'rainbow':
                 this.applyRainbowEffect();
                 break;
